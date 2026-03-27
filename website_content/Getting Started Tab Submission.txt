@@ -1,0 +1,39 @@
+            {
+                id: 'getting-started',
+                label: 'Getting Started',
+                content: `
+                <h1> Getting Started </h1>
+                
+                <h2> Setting up the Raspbot V2 </h2>
+                <p> This will guide you through how to boot and set up the Raspbot. It is a simple process but it is important to follow all of the steps carefully. </p>
+                <ul>
+                <li> Connect the camera USB wire to the USB port located at the back of the robot. </li>
+                <li> Flip the switch located under the USB ports. </li>
+                <li> Wait for the robot to beep 3 times. </li>
+                </ul>
+                <p> Things to watch out for </p>
+                <ul>
+                <li> Take the camera cap is taken off of the front of the camera. Also make sure not to lose it. </li>
+                <li> Make sure the camera rotors properly turned the camera to face front center and level of the bot. If you hear the motors running too long, turn the robot off and on again. </li>
+                <li> It may take a while for the robot to boot; however, if the robot hasn't beeped in 2-3 minutes, turn it off and back on. </li>
+                </ul>
+
+                <h2> Connecting via app </h2>
+
+
+                <h2> Connecting via JupyterLab </h2>
+                <p> Used for making, editing, and running python scripts for the robot. Jupyter Labs will be hosted on the robot and can be accessed using any browser on the same network. </p>
+                <h3> Access from Another Device </h2>
+                <p> In a browser on the same network, type into the search bar:
+                <br>
+                <br> <strong>http://</strong><i>your_robot_ip</i><strong>:8888/lab</strong>
+                <br> <i> Password: </i> <strong> Yahboom </strong> </p>
+                <h3> Access on the Raspbot </h3>
+                
+                
+
+                <h2> Connecting via VNC viewer </h2>
+                
+                
+                `
+            },
