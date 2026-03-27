@@ -18,6 +18,7 @@
     - provide minimal code examples to interact with each aspect of the bot
     <h3> Read/write motor </h3>
     <h3> basic move (forward, left, right, etc) </h3>
+    <h3>(Vincent Cheng, mostly done just need to attach links, images, and sample code.)</h3>
     <h3> read/write camera servos </h3>
     <h3> control buzzer </h3>
     <h3> control light bar </h3>
