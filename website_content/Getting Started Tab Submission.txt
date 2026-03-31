@@ -29,11 +29,37 @@
                 <br> <strong>http://</strong><i>your_robot_ip</i><strong>:8888/lab</strong>
                 <br> <i> Password: </i> <strong> Yahboom </strong> </p>
                 <h3> Access on the Raspbot </h3>
+                <p> Open a browser (second icon from the top left) and type into the search bar
+                <br> <br> <strong> localhost:8888/lab </strong>
+                <ul> <li> The password is <i> yahboom </i> </li> </ul>
                 
                 
 
                 <h2> Connecting via VNC viewer </h2>
-                
-                
+                <p> Download VNC Viewer from: <i> https://www.realvnc.com/en/connect/downloads/viewer/ </i>. VNC Veiwer will prompt you to make an account and verify the email address.
+                <p> Once VNC Viewer is installed, make sure your device is connected to the same network as the robot. Then, 
+                <ul>
+                <li> Open VNC Viewer. </li>
+                <li> In the bar at the top, enter the IP address of the robot (located on the OLED screen). Click on the VNC server icon to connect.</li>
+                    <ul>
+                    <li> There may be a warning about the connection being unencrypted. </li>
+                    </ul>
+                <li>When prompted, enter ‘pi' as the username and ‘yahboom’ as the password. ,/li>
+                    <ul>
+                    <li> Be sure to click ‘Remember password’ when connecting or it may fail. </li>
+                    </ul>
+                </ul>
+                </p>
+
+
+                <h2> Entering the Docker Container </h2>
+                <p> You'll need to be connected to the robot through the VNC Viewer. </p>
+                <p> Run the following in one terminal to enter into the docker container. :: <strong> source docker_ros2.sh </strong>
+                <ul> <li> Successful completion should show the terminal hostname as: "<i> root@yahboom </i>" </li> </ul>
+
+                <p> In a new terminal, run :: <strong> docker ps -a </strong>
+                <ul> <li> You are looking for the most recent container ID. This should be a length 12 alpha-numeric ID. </li> </ul>
+                <p> Then run in the same terminal :: <strong> docker exec -it </strong> <i> container ID </i> <strong> /bin/bash </strong>
+                <p> You now have two docker terminals to use, run, and retrieve programs from, allowing different applications to run independently. </p>
                 `
             },
