@@ -54,12 +54,23 @@
 
                 <h2> Entering the Docker Container </h2>
                 <p> You'll need to be connected to the robot through the VNC Viewer. </p>
-                <p> Run the following in one terminal to enter into the docker container. :: <strong> source docker_ros2.sh </strong>
+                <p> Run the following in one terminal to enter into the docker container.
+                <br> <code> source docker_ros2.sh </code>
                 <ul> <li> Successful completion should show the terminal hostname as: "<i> root@yahboom </i>" </li> </ul>
 
-                <p> In a new terminal, run :: <strong> docker ps -a </strong>
+                <p> In a new terminal, run,
+                <br> <code> docker ps -a </code>
                 <ul> <li> You are looking for the most recent container ID. This should be a length 12 alpha-numeric ID. </li> </ul>
-                <p> Then run in the same terminal :: <strong> docker exec -it </strong> <i> container ID </i> <strong> /bin/bash </strong>
+                <p> Then run in the same terminal,
+                <br> <code> docker exec -it <i> "container_ID" </i> /bin/bash </code>
                 <p> You now have two docker terminals to use, run, and retrieve programs from, allowing different applications to run independently. </p>
+                <h3> Quick Guide </h3>
+                <strong>Terminal 1</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Terminal 2</strong>
+                <br> <strong> 1. </strong> <code> source docker_ros2.sh </code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong> 2. </strong> <code> docker ps -a </code>
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong> 3. </strong> <code> docker exec -it "container_ID" /bin/bash </code>
+                <br>
                 `
             },
