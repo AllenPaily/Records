@@ -35,14 +35,13 @@
                 <h2> Connecting via JupyterLab </h2>
                 <p> Used for making, editing, and running python scripts for the robot. Jupyter Labs will be hosted on the robot and can be accessed using any browser on the same network. </p>
                 <h3> Access from Another Device </h2>
-                <p> In a browser on the same network, type into the search bar:
-                <br>
-                <br> <strong>http://</strong><i>your_robot_ip</i><strong>:8888/lab</strong>
-                <br> <i> Password: </i> <strong> Yahboom </strong> </p>
+                <p> In a browser on the same network, type into the search bar: </p>
+                <code>http://<i>your_robot_ip</i>:8888/lab</code>
+                <p> <i> Password: </i> <strong> Yahboom </strong> </p>
                 <h3> Access on the Raspbot </h3>
-                <p> Open a browser (second icon from the top left) and type into the search bar
-                <br> <br> <strong> localhost:8888/lab </strong>
-                <ul> <li> The password is <i> yahboom </i> </li> </ul>
+                <p> Open a browser (second icon from the top left) and type into the search bar, </p>
+                <code> localhost:8888/lab </code>
+                <ul> <li> The password is: <i> yahboom </i> </li> </ul>
                 
                 
 
