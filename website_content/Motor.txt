@@ -5,7 +5,7 @@
                     <h3>1. Ensure that Raspbot_Lib library functions is properly installed.</h3>
                     <p>Raspbot Driver function are required. <br>
                     If you do not have it properly install, click the link below. <br>
-                    <a link href="https://www.yahboom.net/study/Raspbot" target = "_blank" style = "color: blue";> Library Installation Link</a>
+                    <a link href="https://www.yahboom.net/public/upload/upload-html/1725346805/1.%20Install%20Raspbot%20V2%20driver%20library.html" target = "_blank" style = "color: blue";> Library Installation Link</a>
                     </p>
 
                     <h3>2. Core functions </h3>

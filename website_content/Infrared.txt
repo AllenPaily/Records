@@ -1,0 +1,21 @@
+{
+                id: 'Infrared',
+                label: 'Infrared',
+                content: `<h1>Infrared</h1>
+                <h3>1. Preperation</h3>
+                <p>1. The car wiring has been installed<br>
+                2. Debug the four-way patrol module. Adjust the knob of the four-way tracking module so that the indicator light is on when encountering a black line; when it is not a black line, the indicator light is off.</p>
+                
+                <h3>2. Explaination</h3>
+                <p>The raspbot operates an I2C device(address is 0x0a).<br>
+                The I2C has 4 sensor that pick up what directly beneath it.<br>
+                Since the sensor only view what's beneath it, infrared can be use to ensure the raspbot stay one line.<br>
+                Each sensor returns one bit 0 or a 1 depending one how much light get reflected back<br>
+                A 0 mean it sees a black and 1 mean it sees white.<br>
+                The I2C collects data form all 4 sensor and packages it into one byte.<br>
+                After you know the robot's sensor status, you can pilot it to stay one the path.</p>
+                
+                <h1>3. Sample Code</h1>
+                <pre></pre>
+                `
+            },

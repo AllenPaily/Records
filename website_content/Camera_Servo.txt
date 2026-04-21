@@ -1,0 +1,23 @@
+{
+                id: 'Camera Servo',
+                label: 'Camera Servo',
+                content: `<h1>Camera</h1>
+                    <h3>1. Core Functions</h3>
+                    <p>Raspbot_lib is a required library to control the servo.<br>
+                    If you installiation isn't complete follow this guide: 
+                    <a link href="https://www.yahboom.net/public/upload/upload-html/1725346805/1.%20Install%20Raspbot%20V2%20driver%20library.html" target = "_blank" style = "color: blue";> Library Installation Link</a>
+                    </p>
+                    <pre>Ctrl_Servo(id, angle):</pre>
+                    <p>Raspbot v2, has 2 servo port that you can control as depicted below.</p>
+                    <img src= "Images/Servo.png" alt = "Camera Servo" width ="500"><br>
+
+                    <p>id corresponds to one of the servo ports.<br>
+                    id =1 controls S1, id = 2 controls S2.<br>
+                    angle refers to the rotational angle of the servo and can be change to anywhere from [0,180]<br>
+                    there are no returns for this functions</p>
+                    
+                    <h3>2. Sample Code</h3>
+                    <pre></pre>
+
+                    `
+            },
